@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FBFEFF;
+}
+.container{
+    max-width: 1140px;
+}
+/* =========================== navbar start ========================== */
+.location_li{
+    margin-right: 66px;
+}
+.blogs_li{
+    margin-right: 72px;
+}
+.testimonials_li{
+    margin-right: 49px;
+}
+.nav_a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 180%;
+
+}
+nav{
+    top: 43px;
+}
+/* =========================== navbar end ========================== */
+
+/* =========================== hero start ========================== */
+#hero{
+background: url(../images/hero_background.png) no-repeat ;
+background-size: cover;
+}
+.hero_top{
+    padding-top: 252px;
+    margin-bottom: 80px;
+}
+.hero_h1{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 128%;
+    letter-spacing: 0.72px;
+}
+.hero_p{
+    margin: 10px 0 52px 0;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #5D616F;
+    max-width: 459px;
+}
+.hero_buttons{
+    gap: 28px;
+}
+.hero_b1{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 180%;
+    color: #3E82FC;
+    padding: 15px 40px;
+    border-radius: 40px;
+    border: 1px solid #3E82FC;
+    transition: 0.5s;
+}
+.hero_b2{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 180%;
+    color: #3E82FC;
+    padding: 15px 40px;
+    border-radius: 40px;
+    border: 1px solid #3E82FC;
+    transition: 0.5s;
+}
+.hero_b1:hover{
+    background: #3E82FC;
+    color: #ffffff;
+}
+.hero_b2:hover{
+    background: #3E82FC;
+    color: #ffffff;
+}
+.hero_image img{
+    padding-top: 26px;
+
+}
+.hero_bottom_main{
+    padding: 66px;
+    background: #ffffff;
+}
+.hero_bottom_sub{
+    max-width: 268px;
+}
+.hero_bottom_img{
+    margin: 0 0 28px 0;
+}
+.hero_bottom_h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 0 0 12px 0;
+}
+.hero_bottom_p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #5D616F;
+}
+.hero_end_h6{
+    padding: 76px 0 56px 0;
+}
+.hero_end_h6{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #5D616F;
+}
+.hero_end_h6 span{
+    font-weight: 700;
+    font-style: italic;
+    color: #FE2C54;
+}
+/* =========================== hero end ========================== */
+
+/* =========================== one start ========================== */
+#one{
+    background: url(../images/agency.png) no-repeat center;
+    background-size: cover;
+    margin: 193px 0 130px 0;
+}
+.one_text{
+    margin-left: 38px;
+}
+.one_text_h2{
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 126%;
+    letter-spacing: 0.62px;
+    max-width: 397px;
+}
+.one_text_p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 146%;
+    max-width: 372px;
+    color: #5D616F;
+    margin: 12px 0 32px 0;
+}
+.one_text_button{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 180%;
+    color: #3E82FC;
+    padding: 15px 40px;
+    border-radius: 40px;
+    border: 1px solid #3E82FC;
+    transition: 0.5s;
+}
+.one_text_button:hover{
+    background: #3E82FC;
+    color: #ffffff;
+}
+.num_one{
+    bottom: 92px;
+    right: 46px;
+}
+/* =========================== one end ========================== */
+
+/* =========================== trusted clints start ========================== */
+.trusted_clints_heading h6{
+    font-size: 20;
+    font-weight: 500;
+    line-height: 26px;
+    color: #3E82FC;
+}
+.trusted_clints_heading h3{
+    font-size: 40;
+    font-weight: 600;
+    letter-spacing: 0.px;
+    margin-bottom: 114px;
+}
+.clints{
+    gap: 100px;
+}
+.clint_logo{
+    margin-bottom: -18px;
+}
+/* =========================== trusted clints end ========================== */
+
+/* =========================== two start ========================== */
+#two{
+    margin: 226px 0 130px 0;
+    background: url(../images/agency.png) center no-repeat;
+    background-size: cover;
+}
+.two_text_h2{
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 126%;
+    letter-spacing: 0.62px;
+    max-width: 397px;
+}
+.two_text_p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 146%;
+    max-width: 372px;
+    color: #5D616F;
+    margin: 12px 0 32px 0;
+}
+.two_text_button{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 180%;
+    color: #3E82FC;
+    padding: 15px 40px;
+    border-radius: 40px;
+    border: 1px solid #3E82FC;
+    transition: 0.5s;
+}
+.two_text_button:hover{
+    background: #3E82FC;
+    color: #ffffff;
+}
+.num_two{
+    bottom: 92px;
+    right: 46px;
+}
+/* =========================== two end ========================== */
+
+/* =========================== three end ========================== */
+#three{
+    background: url(../images/agency.png) no-repeat center;
+    background-size: cover;
+    margin: 260px 0 214px 0;
+}
+.three_text{
+    margin-left: 38px;
+}
+.three_text_h2{
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 126%;
+    letter-spacing: 0.62px;
+    max-width: 397px;
+}
+.three_text_p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 146%;
+    max-width: 372px;
+    color: #5D616F;
+    margin: 12px 0 32px 0;
+}
+.three_text_button{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 180%;
+    color: #3E82FC;
+    padding: 15px 40px;
+    border-radius: 40px;
+    border: 1px solid #3E82FC;
+    transition: 0.5s;
+}
+.three_text_button:hover{
+    background: #3E82FC;
+    color: #ffffff;
+}
+.num_three{
+    bottom: 92px;
+    right: 46px;
+}
+/* =========================== three end ========================== */
+
+/* =========================== clints review start ========================== */
+.review_heading h6{
+    font-size: 20;
+    font-weight: 500;
+    line-height: 26px;
+    color: #3E82FC;
+}
+.review_heading h3{
+    font-size: 40;
+    font-weight: 600;
+    letter-spacing: 0.px;
+    margin-bottom: 114px;
+}
+.clint_carousel{
+    margin-bottom: 100px;
+}
+.review_item{
+    border-radius: 100px 0;
+    box-shadow: 0px 54px 104px 0px rgba(0, 0, 0, 0.04);
+    padding: 52px 57px;
+    margin-bottom: 96px;
+}
+.clint_name{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.clint_name{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FE2C54;
+    margin-bottom: 20px;
+}
+.clint_comment{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #5D616F;
+    max-width: 612px;
+}
+.clint_item_width{
+    max-width: 726px;
+}
+.slick-dots{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 0;
+    gap: 10px;
+}
+.slick-dots button{
+    color: #ECF3FF;
+    width: 10px;
+    height: 10px;
+    background: #ECF3FF;
+    border-radius: 50%;
+    border: none;
+    font-size: 1px;
+}
+.slick-dots button:hover{
+    background: #3E82FCed;
+}
+/* =========================== clints review end ========================== */
+
+/* =========================== subscribe start ========================== */
+#footer{
+    background: #ECF3FF;
+    padding: 118px 0 48px 0
+}
+.sub_h2{
+    margin: 0 0 30px 0;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0.4px;
+    max-width: 575px;
+}
+.sub_p{
+    margin: 0 0 76px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #5D616F;
+    max-width: 637px;
+}
+form{
+    gap: 19px;
+    margin-bottom: 225px;
+}
+.i_email{
+    width: 448px;
+    height: 58px;
+    border: 1px solid #3E82FC;
+    background: #ffffff;
+    border-radius: 50px;
+    padding-left: 66px;
+}
+.i_email::placeholder{
+    color: #3E82FC;
+    font-size: 16px;
+    font-weight: 400;
+}
+form i{
+    font-size: 26px;
+    color: #3E82FC;
+    top: 17px;
+    left: 265px;
+}
+.i_button{
+    width: 170px;
+    height: 58px;
+    border: 1px solid #3E82FC;
+    background: #ffffff;
+    color: #3E82FC;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.i_button:hover{
+    color: #ffffff;
+    background: #3E82FC;
+}
+/* =========================== subscribe end ========================== */
+
+/* =========================== footer end ========================== */
+.foot_logo{
+    padding-top: 22px;
+    padding-bottom: 16px;
+}
+.foot_p{
+    color: #5D616F;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.foot_ul{
+    gap: 30px;
+}
+.foot_ul i{
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+    border: 1px solid #3E82FC;
+    background: #3E82FC;
+    color: #ffffff;
+    font-size: 34px;
+    line-height: 49px;
+    text-align: center;
+    transition: 0.5s;
+}
+.foot_ul i:hover{
+    color: #3E82FC;
+    background: #ffffff;
+}
+.ul_heading{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 180%;
+    margin-bottom: 30px;
+}
+.list_item{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    margin-bottom: 24px;
+    color: #5D616F;
+}
+.end{
+    margin-top: 130px;
+}
+.end p{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #5D616F;
+    text-align: center;
+}
+/* =========================== footer end ========================== */
+
+
+
