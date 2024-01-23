@@ -360,11 +360,12 @@ form{
     font-size: 16px;
     font-weight: 400;
 }
-form i{
+form i {
+    position: absolute;
     font-size: 26px;
     color: #3E82FC;
     top: 17px;
-    left: 265px;
+    left: 16px;
 }
 .i_button{
     width: 170px;
