@@ -16,11 +16,16 @@ body{
 .testimonials_li{
     margin-right: 49px;
 }
-.nav_a{
+.nav_a {
     font-size: 18px;
     font-weight: 500;
     line-height: 180%;
-
+    text-decoration: transparent;
+    display: block;
+    line-height: 30px;
+}
+.nav_a:hover{
+    text-decoration: underline #3E82FC;
 }
 nav{
     top: 43px;
@@ -50,10 +55,7 @@ background-size: cover;
     color: #5D616F;
     max-width: 459px;
 }
-.hero_buttons{
-    gap: 28px;
-}
-.hero_b1{
+.hero_button{
     font-size: 18px;
     font-weight: 600;
     line-height: 180%;
@@ -63,21 +65,7 @@ background-size: cover;
     border: 1px solid #3E82FC;
     transition: 0.5s;
 }
-.hero_b2{
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 180%;
-    color: #3E82FC;
-    padding: 15px 40px;
-    border-radius: 40px;
-    border: 1px solid #3E82FC;
-    transition: 0.5s;
-}
-.hero_b1:hover{
-    background: #3E82FC;
-    color: #ffffff;
-}
-.hero_b2:hover{
+.hero_button:hover{
     background: #3E82FC;
     color: #ffffff;
 }
@@ -109,8 +97,6 @@ background-size: cover;
 }
 .hero_end_h6{
     padding: 76px 0 56px 0;
-}
-.hero_end_h6{
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -175,16 +161,13 @@ background-size: cover;
     color: #3E82FC;
 }
 .trusted_clints_heading h3{
-    font-size: 40;
+    font-size: 40px;
     font-weight: 600;
-    letter-spacing: 0.px;
-    margin-bottom: 114px;
-}
-.clints{
-    gap: 100px;
+    letter-spacing: 0.4px;
+    margin-bottom: 32px;
 }
 .clint_logo{
-    margin-bottom: -18px;
+    margin-top: 82px;
 }
 /* =========================== trusted clints end ========================== */
 
@@ -280,11 +263,11 @@ background-size: cover;
     line-height: 26px;
     color: #3E82FC;
 }
-.review_heading h3{
-    font-size: 40;
+.review_heading h3 {
+    font-size: 40px;
     font-weight: 600;
-    letter-spacing: 0.px;
-    margin-bottom: 114px;
+    letter-spacing: 0.4px;
+    margin-bottom: 116px;
 }
 .clint_carousel{
     margin-bottom: 100px;
@@ -301,7 +284,7 @@ background-size: cover;
     line-height: 26px;
     margin-top: 20px;
 }
-.clint_name{
+.clint_raction{
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
