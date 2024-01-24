@@ -155,7 +155,7 @@ background-size: cover;
 
 /* =========================== trusted clints start ========================== */
 .trusted_clints_heading h6{
-    font-size: 20;
+    font-size: 20px;
     font-weight: 500;
     line-height: 26px;
     color: #3E82FC;
@@ -258,7 +258,7 @@ background-size: cover;
 
 /* =========================== clints review start ========================== */
 .review_heading h6{
-    font-size: 20;
+    font-size: 20px;
     font-weight: 500;
     line-height: 26px;
     color: #3E82FC;
