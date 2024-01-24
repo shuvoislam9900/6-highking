@@ -208,7 +208,7 @@
     }
     .i_email {
         height: 45px;
-        padding: 0 45px;
+        padding: 0 40px;
         width: 90%;
     }
     .i_email::placeholder{
